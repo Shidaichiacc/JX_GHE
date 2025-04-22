@@ -2,3 +2,4 @@
 gateway/Logs/
 server1/Logs/
 gateway/Backup/
+gateway/s3relay/Logs
