@@ -1,0 +1,12 @@
+[2025-04-23 05:22:21] error: <statement> expected;
+  last token read: `40' at line 42 in string "\script\global\seasonnpc.lua"
+stack traceback:
+   1[1]:  function `Include' [C]
+   2[0]:  main of string "/script/event/other/jilixinwanjia/200908/np..." at line 2
+
+[2025-04-23 05:22:21] error: <statement> expected;
+  last token read: `40' at line 42 in string "/script/global/seasonnpc.lua"
+
+[2025-04-23 05:22:21] error: unfinished string;
+  last token read: `"Th?RÃn Th«n B?},' at line 93 in string "/script/global/autoexec.lua"
+

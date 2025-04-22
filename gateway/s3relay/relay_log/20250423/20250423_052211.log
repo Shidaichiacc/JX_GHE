@@ -1,0 +1,54 @@
+[2025/04/23 05:22:11] Delete event data: ShareKey(EVENT_cailuhongbao), Param1(-1), Param2(-1), Timeout(2020-3-30)
+[2025/04/23 05:22:11] Delete event data: ShareKey(EVENT_MIDAUT_2010), Param1(-1), Param2(-1), Timeout(2020-10-19)
+[2025/04/23 05:22:11] Delete event data: ShareKey(EVENT_dayanqunxia), Param1(-1), Param2(-1), Timeout(2020-3-20)
+[2025/04/23 05:22:11] Delete event data: ShareKey(FUNC_RANK_EQUIPVALUE), Param1(-1), Param2(-1), Timeout(2020-6-4)
+[2025/04/23 05:22:11] Delete event data: ShareKey(EVENT_April_zhushuai), Param1(-1), Param2(-1), Timeout(2020-6-4)
+[2025/04/23 05:22:11] Loading All Scripts....................
+[2025/04/23 05:22:11] Load Rank FUNC_RANK_EQUIPVALUE
+[2025/04/23 05:22:11] Load Stable Rank count 0
+[2025/04/23 05:22:11] Load Dynamic Rank count 0
+[2025/04/23 05:22:11] Load Rank FUNC_RANK_EQUIPVALUE end
+[2025/04/23 05:22:11] 
+All Scripts Have Been Loaded! Count = 82
+[2025/04/23 05:22:11] root client[:0] create
+[2025/04/23 05:22:13] start autotimer for Ping: 
+[2025/04/23 05:22:13] TRIP_MODE: None
+[2025/04/23 05:22:13] Loading World Setting...
+[2025/04/23 05:22:13] Reset map pho ban thanh cong
+[2025/04/23 05:22:13] gateway client create: 127.0.0.1
+[2025/04/23 05:22:13] Load LeagueData: LeagueType: 1, Leagues: 7, Roles: 7
+[2025/04/23 05:22:13] Load LeagueData: LeagueType: 4, Leagues: 7, Roles: 7
+[2025/04/23 05:22:13] Load LeagueData: LeagueType: 500, Leagues: 9, Roles: 9
+[2025/04/23 05:22:13] Load LeagueData: LeagueType: 502, Leagues: 25, Roles: 25
+[2025/04/23 05:22:13] Load LeagueData: LeagueType: 8888, Leagues: 19, Roles: 0
+[2025/04/23 05:22:13] Load LeagueData: LeagueType: 10000, Leagues: 1, Roles: 1
+[2025/04/23 05:22:13] =====> THONG BAO TIN TUC TU DONG
+[2025/04/23 05:22:13] =====> BAT DAU KHOI DONG CAC TINH NANG CUA GAME VO LAM TRUYEN KY <=====
+[2025/04/23 05:22:13] =====> TONG_SPFESTIVAL SE BAT DAU LUC 6:0...
+[2025/04/23 05:22:13] =====> TONG_SHREWMOUSE BAT DAU LUC 6:0...
+[2025/04/23 05:22:13] =====> HOAT DONG THU THAP VAT PHAM BANG HOI BAT DAU TU 6:0?
+[2025/04/23 05:22:13] <=====BOSS TIEU HOANG KIM: [12:0] IS START========>
+[2025/04/23 05:22:13] ================[START BOSS HOANG KIM]==================
+[2025/04/23 05:22:13] =================Phong Lang Do 6:0================== 
+[2025/04/23 05:22:13] **************** Tèng Kim Quèc ChiÕn nhiÖm vô khëi ®éng thµnh c«ng****************
+[2025/04/23 05:22:13] ====================> Quoc Chien 19:50 <====================
+[2025/04/23 05:22:13]        Lay danh sach cac cao thu, phu ho, cao thu mon phai vao thu 2 hang tuan 0:01
+[2025/04/23 05:22:13]  ========================================================================================
+[2025/04/23 05:22:13]          Cap nhat thong tin moi nhat ve THU HANG GIANG HO vao luc 23h50 moi ngay
+[2025/04/23 05:22:13] Qña Huy Hoµng
+[2025/04/23 05:22:13]  ========================================================================================
+[2025/04/23 05:22:13]                 Tinh nang Lien Dau (Don dau tu do) Start: Phase=1  SeasonID=87 
+[2025/04/23 05:22:13]                            tu thu 2 den thu 6: 19h00 ~ 19h45, 4 tran 
+[2025/04/23 05:22:13]                    2 ngay cuoi tuan 18h00 ~ 18h45 va 20h00 ~ 20h45, 8 tran 
+[2025/04/23 05:22:13] =====> VUOT AI KHIEU CHIEN THOI GIAN BAT DAU 6:0...
+[2025/04/23 05:22:13] =====> BANG XEP HANG <THACH THUC THOI GIAN> MOI NGAY=======
+[2025/04/23 05:22:13]  ========================================================================================
+[2025/04/23 05:22:13]                             Ladder startup. . . 10.001 -> 10500
+[2025/04/23 05:22:13] =================GLOBALEXCUTECHAT=================
+[2025/04/23 05:22:13] =====> [SEVENCITY] Bat Dau Ghi Danh That Thanh Dai Chien
+[2025/04/23 05:22:13] =====> [SEVENCITY] Ket Thuc Ghi Danh That Thanh Dai Chien
+[2025/04/23 05:22:13] =====> [SEVENCITY] Chuan Bi That Thanh Dai Chien
+[2025/04/23 05:22:13] =====> [SEVENCITY] Bat Dau That Thanh Dai Chien
+[2025/04/23 05:22:13] =====> [SEVENCITY] Ket Thuc That Thanh Dai Chien
+[2025/04/23 05:22:13] Qua Hoang Kim
+[2025/04/23 05:22:1

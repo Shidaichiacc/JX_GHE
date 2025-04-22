@@ -371,11 +371,11 @@ function main()
 --------------------------------------------------------------------------------
 
 	if NangCapNgua == 1 then
-	local nIndex = AddNpc(229,1,SubWorldID2Idx(78),1581*32,3204*32,0,"N©ng C p Th«n M?)
+	local nIndex = AddNpc(229,1,SubWorldID2Idx(78),1581*32,3204*32,0,"N©ng C p Th«n M∑")
 	SetNpcScript(nIndex,"\\script\\global\\pgaming\\nangcapngua\\npcnangcapngua.lua")
 	end
 	if DoiTenNhanVat == 1 then
-	local nIndex2 = AddNpc(1801,1,SubWorldID2Idx(176),1422*32,3297*32,0,"V?L©m Minh Ch?)
+	local nIndex2 = AddNpc(1801,1,SubWorldID2Idx(176),1422*32,3297*32,0,"V‚ L©m Minh ChÒ")
 	SetNpcScript(nIndex2,"\\script\\global\\general\\thunghiem\\doiten.lua")
 	end
 	if BauCua == 1 then

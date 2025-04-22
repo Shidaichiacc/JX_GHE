@@ -1,0 +1,76 @@
+[Begin]Account(vongduong2), Role(123123123)
+Money(364550): Value(5)
+[End]Item Evaluate
+[End]Account(vongduong2), Role(123123123): ValueG(5), ValueS(0)
+[Begin]Account(vongduong3), Role(12313132)
+Money(618642): Value(8)
+[End]Item Evaluate
+[End]Account(vongduong3), Role(12313132): ValueG(8), ValueS(0)
+[Begin]Account(vongduong5), Role(1546464)
+Money(14514932): Value(203)
+[End]Item Evaluate
+[End]Account(vongduong5), Role(1546464): ValueG(203), ValueS(0)
+[Begin]Account(vongduong4), Role(4564654)
+Money(291015): Value(4)
+[End]Item Evaluate
+[End]Account(vongduong4), Role(4564654): ValueG(4), ValueS(0)
+[Begin]Account(vongduong), Role(686868)
+Money(539788): Value(7)
+[End]Item Evaluate
+[End]Account(vongduong), Role(686868): ValueG(7), ValueS(0)
+[Begin]Account(vongduong1), Role(68768688)
+Money(272860): Value(3)
+[End]Item Evaluate
+[End]Account(vongduong1), Role(68768688): ValueG(3), ValueS(0)
+[Begin]Account(shidaichi), Role(GameMaster)
+Money(96662911): Value(1353)
+[End]Item Evaluate
+[End]Account(shidaichi), Role(GameMaster): ValueG(1353), ValueS(0)
+[Begin]Account(laudiquy), Role(LÇuÙDiÙQuý)
+Money(6713831): Value(93)
+[End]Item Evaluate
+[End]Account(laudiquy), Role(LÇuÙDiÙQuý): ValueG(93), ValueS(0)
+[Begin]Account(laudiquy1), Role(NguyÔnÙMinhÙTrÝ)
+Money(2939891): Value(41)
+[End]Item Evaluate
+[End]Account(laudiquy1), Role(NguyÔnÙMinhÙTrÝ): ValueG(41), ValueS(0)
+[Begin]Account(laudiquy4), Role(NguyÔnÙThóyÙH»ng)
+Money(2000193): Value(28)
+[End]Item Evaluate
+[End]Account(laudiquy4), Role(NguyÔnÙThóyÙH»ng): ValueG(28), ValueS(0)
+[Begin]Account(laudiquy5), Role(NguyÔnÙ§øcÙH¹nh)
+Money(900005): Value(12)
+[End]Item Evaluate
+[End]Account(laudiquy5), Role(NguyÔnÙ§øcÙH¹nh): ValueG(12), ValueS(0)
+[Begin]Account(laudiquy3), Role(N×mÙNhôcÙPÈu)
+Money(71404262): Value(999)
+[End]Item Evaluate
+[End]Account(laudiquy3), Role(N×mÙNhôcÙPÈu): ValueG(999), ValueS(0)
+[Begin]Account(laudiquy2), Role(VßngÙCónÙD­ìng)
+Money(2725449): Value(38)
+[End]Item Evaluate
+[End]Account(laudiquy2), Role(VßngÙCónÙD­ìng): ValueG(38), ValueS(0)
+[Begin]Account(a3), Role(YahooBu3)
+Money(64420056): Value(901)
+[End]Item Evaluate
+[End]Account(a3), Role(YahooBu3): ValueG(901), ValueS(0)
+[Begin]Account(a4), Role(YahooCB4)
+Money(3827146): Value(53)
+[End]Item Evaluate
+[End]Account(a4), Role(YahooCB4): ValueG(53), ValueS(0)
+[Begin]Account(a5), Role(YahooCL5)
+Money(1007645): Value(14)
+[End]Item Evaluate
+[End]Account(a5), Role(YahooCL5): ValueG(14), ValueS(0)
+[Begin]Account(a2), Role(YahooNM2)
+Money(7012690): Value(98)
+[End]Item Evaluate
+[End]Account(a2), Role(YahooNM2): ValueG(98), ValueS(0)
+[Begin]Account(a1), Role(YahooTL1)
+Money(1642019): Value(22)
+[End]Item Evaluate
+[End]Account(a1), Role(YahooTL1): ValueG(22), ValueS(0)
+[Begin]Account(a6), Role(YahooTV6)
+Money(1327491): Value(18)
+[End]Item Evaluate
+[End]Account(a6), Role(YahooTV6): ValueG(18), ValueS(0)
