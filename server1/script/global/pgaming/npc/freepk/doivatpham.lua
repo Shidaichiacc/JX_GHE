@@ -39,25 +39,25 @@ function moMenuHT()
 	"<color=green>HT1:<color=yellow> "..ht1.."   <color=green>HT2:<color=yellow> "..ht2.."   <color=green>HT3:<color=yellow> "..ht3.."<enter>"..
 	"<color=green>HT4:<color=yellow> "..ht4.."   <color=green>HT5:<color=yellow> "..ht5.."   <color=green>HT6:<color=yellow> "..ht6.."<enter>"..
 	"<color=green>HT7:<color=yellow> "..ht7.."   <color=green>HT8:<color=yellow> "..ht8.."   <color=green>HT9:<color=yellow> "..ht9.."<enter><enter>"..
-	"<color=cyan>Chon cap HT muon nang:<color>"
+	"<color=cyan>Chän HT Muèn N©ng CÊp:<color>"
 
 	Describe(thongbao, 11,
-	"HT 1 ? 2/HT1to2",
-	"HT 2 ? 3/HT2to3",
-	"HT 3 ? 4/HT3to4",
-	"HT 4 ? 5/HT4to5",
-	"HT 5 ? 6/HT5to6",
-	"HT 6 ? 7/HT6to7",
-	"HT 7 ? 8/HT7to8",
-	"HT 8 ? 9/HT8to9",
-	"HT 9 ? 10/HT9to10",
-	"Thoat/no"
+	"HT 1 > 2/HT1to2",
+	"HT 2 > 3/HT2to3",
+	"HT 3 > 4/HT3to4",
+	"HT 4 > 5/HT4to5",
+	"HT 5 > 6/HT5to6",
+	"HT 6 > 7/HT6to7",
+	"HT 7 > 8/HT7to8",
+	"HT 8 > 9/HT8to9",
+	"HT 9 > 10/HT9to10",
+	"Tho¸t/no"
 	)
 end
-function HT1to2() DoiHTTheoCap(1, 5) end
-function HT2to3() DoiHTTheoCap(2, 5) end
-function HT3to4() DoiHTTheoCap(3, 5) end
-function HT4to5() DoiHTTheoCap(4, 5) end
+function HT1to2() DoiHTTheoCap(1, 6) end
+function HT2to3() DoiHTTheoCap(2, 6) end
+function HT3to4() DoiHTTheoCap(3, 6) end
+function HT4to5() DoiHTTheoCap(4, 6) end
 function HT5to6() DoiHTTheoCap(5, 5) end
 function HT6to7() DoiHTTheoCap(6, 5) end
 function HT7to8() DoiHTTheoCap(7, 4) end
@@ -111,7 +111,7 @@ function XacNhanHTCapX(nCap, bieng, n_key)
 	end
 
 	local daTieu = n_key * bieng
-	Talk(1, "", "Doi thanh cong "..daTieu.." HT cap "..nCap.." thanh "..n_key.." HT cap "..(nCap+1))
+	Talk(1, "", "Thµnh c«ng lÊy "..daTieu.." viªn HT c¸p "..nCap.." n©ng cÊp thµnh "..n_key.." viªn HT cÊp "..(nCap+1))
 end
 
 
