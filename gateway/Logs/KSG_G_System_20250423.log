@@ -6,3 +6,5 @@
 2025-04-23 05:23:42	GetRoleInfo(YahooNM2) OK: Enter Node[0](127.0.0.1 : 53150)
 2025-04-23 05:23:42	GetRoleData(YahooNM2) OK: datalen(13260)
 2025-04-23 05:23:42	EnterGame(YahooNM2) OK: Move from Node[0] to Node[1]
+2025-04-23 05:44:50	QuitSave[YahooNM2] OK: Leave Node[1]
+2025-04-23 05:44:50	SaveRoleData(YahooNM2) OK: datalen(13260)

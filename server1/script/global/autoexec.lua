@@ -88,16 +88,16 @@ adddialognpc = {
 	{377,394,1412,3203,"\\script\\task\\tollgate\\messenger\\messenger_turerukou.lua","DŞch quan"},
 	{377,395,1412,3203,"\\script\\task\\tollgate\\messenger\\messenger_turerukou.lua","DŞch quan"},
 
---	{309,80,1806,3145,"\\script\\global\\faeshi.lua","Ph¹t  ¸c s?},
---	{310,80,1788,3172,"\\script\\global\\shangshanshi.lua","Th­ëng thiÖn s?},	-- Ôö¼ÓÑïÖİÉÍÉÆ·£¶ñÊ¹
-	{387,176,1314,3194,"\\script\\½­ÄÏÇø\\ÁÙ°²\\ÁÙ°²\\npc\\Ö°ÄÜ_ÉñÃØÌú½³.lua","Th?RÌn ThÇn B?},
-	{769,11,3210,4974,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Th?TrÇn"},
-	{769,1,1506,3198,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Th?TrÇn"},
-	{769,37,1647,3050,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Th?TrÇn"},
-	{769,176,1372,3010,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Th?TrÇn"},
-	{769,162,1573,3227,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Th?TrÇn"},
-	{769,78,1512,3206,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Th?TrÇn"},
-	{769,80,1700,2963,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Th?TrÇn"},
+--	{309,80,1806,3145,"\\script\\global\\faeshi.lua","Ph¹t  ¸c sø"},
+--	{310,80,1788,3172,"\\script\\global\\shangshanshi.lua","Th­ëng thiÖn sø"},	-- Ôö¼ÓÑïÖİÉÍÉÆ·£¶ñÊ¹
+	{387,176,1314,3194,"\\script\\½­ÄÏÇø\\ÁÙ°²\\ÁÙ°²\\npc\\Ö°ÄÜ_ÉñÃØÌú½³.lua","Thî RÌn ThÇn Bİ"},
+	{769,11,3210,4974,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Thİ TrÇn"},
+	{769,1,1506,3198,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Thİ TrÇn"},
+	{769,37,1647,3050,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Thİ TrÇn"},
+	{769,176,1372,3010,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Thİ TrÇn"},
+	{769,162,1573,3227,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Thİ TrÇn"},
+	{769,78,1512,3206,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Thİ TrÇn"},
+	{769,80,1700,2963,"\\script\\task\\tollgate\\killer\\nieshichen.lua","NhiÕp Thİ TrÇn"},
 	{1783,  174, 1644,3308, "\\script\\global\\npc\\quanlybanghoi.lua", "Ng­êi h­íng dÉn bang héi"},
 	{1783,  121, 2036,4507, "\\script\\global\\npc\\quanlybanghoi.lua", "Ng­êi h­íng dÉn bang héi"},
 	{1783,  153, 1609,3257, "\\script\\global\\npc\\quanlybanghoi.lua", "Ng­êi h­íng dÉn bang héi"},
@@ -109,8 +109,8 @@ adddialognpc = {
 }
 
 nw_npclist = {
-	{1434, 176, 1478, 3238,"\\script\\nationalwar\\npc.lua","Néi c¸c th­îng th?},	-- ÄÚ¸óÉĞÊé£¨ËÎ£©
-	{1435, 37,  1785, 3041,"\\script\\nationalwar\\npc.lua","Néi c¸c th­îng th?},	-- ÄÚ¸óÉĞÊé£¨½ğ£©
+	{1434, 176, 1478, 3238,"\\script\\nationalwar\\npc.lua","Néi c¸c th­îng th­"},	-- ÄÚ¸óÉĞÊé£¨ËÎ£©
+	{1435, 37,  1785, 3041,"\\script\\nationalwar\\npc.lua","Néi c¸c th­îng th­"},	-- ÄÚ¸óÉĞÊé£¨½ğ£©
 }
 
 -- Æß³Ç´óÕ½
@@ -126,13 +126,13 @@ npclist_sevencity = {
 
 
 addnewtasknpc={
-	--{87,80,4,20,3535,6223,0,"TiÓu Long N?,0,"\\script\\activitysys\\npcdailog.lua"}, 
-	--{87,80,4,121,2020,4484,0,"TiÓu Long N?,0,"\\script\\activitysys\\npcdailog.lua"}, 
-	--{87,80,4,99,1635,3194,0,"TiÓu Long N?,0,"\\\script\\activitysys\\npcdailog.lua"}, 
-	--{87,80,4,100,1621,3190,0,"TiÓu Long N?,0,"\\script\\activitysys\\npcdailog.lua"}, 
-	--{87,80,4,101,1682,3140,0,"TiÓu Long N?,0,"\\script\\activitysys\\npcdailog.lua"}, 
-	--{87,80,4,174,1649,3311,0,"TiÓu Long N?,0,"\\script\\activitysys\\npcdailog.lua"}, 
-	--{87,80,4,153,1632,3242,0,"TiÓu Long N?,0,"\\script\\activitysys\\npcdailog.lua"}, 
+	--{87,80,4,20,3535,6223,0,"TiÓu Long N÷",0,"\\script\\activitysys\\npcdailog.lua"}, 
+	--{87,80,4,121,2020,4484,0,"TiÓu Long N÷",0,"\\script\\activitysys\\npcdailog.lua"}, 
+	--{87,80,4,99,1635,3194,0,"TiÓu Long N÷",0,"\\\script\\activitysys\\npcdailog.lua"}, 
+	--{87,80,4,100,1621,3190,0,"TiÓu Long N÷",0,"\\script\\activitysys\\npcdailog.lua"}, 
+	--{87,80,4,101,1682,3140,0,"TiÓu Long N÷",0,"\\script\\activitysys\\npcdailog.lua"}, 
+	--{87,80,4,174,1649,3311,0,"TiÓu Long N÷",0,"\\script\\activitysys\\npcdailog.lua"}, 
+	--{87,80,4,153,1632,3242,0,"TiÓu Long N÷",0,"\\script\\activitysys\\npcdailog.lua"}, 
 	--{715,80,4,20,3535,6213,0,"NguyÖt L·o",0,"\\script\\activitysys\\npcdailog.lua"}, 
 	--{715,80,4,121,2020,4494,0,"NguyÖt L·o",0,"\\script\\activitysys\\npcdailog.lua"}, 
 	--{715,80,4,99,1635,3184,0,"NguyÖt L·o",0,"\\\script\\activitysys\\npcdailog.lua"}, 
@@ -140,64 +140,64 @@ addnewtasknpc={
 	--{715,80,4,101,1682,3130,0,"NguyÖt L·o",0,"\\script\\activitysys\\npcdailog.lua"}, 
 	--{715,80,4,174,1649,3301,0,"NguyÖt L·o",0,"\\script\\activitysys\\npcdailog.lua"}, 
 	--{715,80,4,153,1632,3232,0,"NguyÖt L·o",0,"\\script\\activitysys\\npcdailog.lua"}, 
-	{663,80,4,20,3545,6223,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-	{663,80,4,53,1618,3169,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-	{663,80,4,121,2010,4484,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-	{663,80,4,99,1625,3194,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-	{663,80,4,100,1621,3170,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-	{663,80,4,101,1692,3140,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-	{663,80,4,174,1639,3291,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-	{663,80,4,153,1622,3242,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+	{663,80,4,20,3545,6223,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+	{663,80,4,53,1618,3169,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+	{663,80,4,121,2010,4484,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+	{663,80,4,99,1625,3194,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+	{663,80,4,100,1621,3170,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+	{663,80,4,101,1692,3140,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+	{663,80,4,174,1639,3291,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+	{663,80,4,153,1622,3242,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
 	{697,80,4,37,1679,3045,0,"Th¸c B¹t Hoµi Xuyªn",0,"\\script\\ÖĞÔ­±±Çø\\ãê¾©\\ãê¾©\\npc\\passerby_tuoba.lua"},
-	{698,30,4,78,1615,3185,0,"L­u UÈn C?",0,"\\script\\ÖĞÔ­ÄÏÇø\\ÏåÑô\\ÏåÑô\\npc\\passerby_liuyungu.lua"},
+	{698,30,4,78,1615,3185,0,"L­u UÈn Cæ ",0,"\\script\\ÖĞÔ­ÄÏÇø\\ÏåÑô\\ÏåÑô\\npc\\passerby_liuyungu.lua"},
 	{699,35,5,176,1695,3387,0,"Thi Nghi Sinh",0,"\\script\\task\\newtask\\branch\\xiepai\\enemy_shiyisheng.lua"},
-	{700,25,5,80,1796,3393,0,"Chİnh V?S?",0,"\\script\\task\\newtask\\branch\\xiepai\\enemy_shenfeng.lua"},
+	{700,25,5,80,1796,3393,0,"Chİnh Vâ SÜ ",0,"\\script\\task\\newtask\\branch\\xiepai\\enemy_shenfeng.lua"},
 	{701,45,5,78,1781,3213,0,"NguyÔn Minh ViÔn",0,"\\script\\task\\newtask\\branch\\xiepai\\enemy_ruanmingyuan.lua"},
 	{702,55,5,78,1359,3514,0,"ThŞnh Do·n",0,"\\script\\task\\newtask\\branch\\xiepai\\enemy_shengyin.lua"},
-	{671,25,5,1,1764,3052,0,"Phan Nh?Long ",0,"\\script\\task\\newtask\\branch\\zhengpai\\enemy_panrulong.lua"},
+	{671,25,5,1,1764,3052,0,"Phan Nh­ Long ",0,"\\script\\task\\newtask\\branch\\zhengpai\\enemy_panrulong.lua"},
 	{672,45,5,11,3369,4865,0,"Du T­¬ng T©n ",0,"\\script\\task\\newtask\\branch\\zhengpai\\enemy_yuxiangjin.lua"},
-	{668,55,5,176,1666,2562,0,"T?Tøc Phong ",0,"\\script\\task\\newtask\\branch\\zhengpai\\enemy_qijifeng.lua"},
+	{668,55,5,176,1666,2562,0,"TÒ Tøc Phong ",0,"\\script\\task\\newtask\\branch\\zhengpai\\enemy_qijifeng.lua"},
 	{660,80,4,1,1587,3303,0,"Ng¹o V©n T«ng ",0,"\\script\\Î÷±±ÄÏÇø\\·ïÏè\\Â·ÈËnpc\\passerby_aoyunzong.lua"},
 	{662,50,4,80,1849,3050,0,"Hçn Hçn",0,"\\script\\ÖĞÔ­ÄÏÇø\\ÑïÖİ\\npc\\passerby_hunhun.lua"},
 	{661,80,4,176,1368,3050,0,"LiÔu Nam V©n ",0,"\\script\\½­ÄÏÇø\\ÁÙ°²\\ÁÙ°²\\npc\\passerby_liunanyun.lua"},
-	{675,35,5,131,1878,3400,0,"H?Hoa ®¹o Bİch Ngäc",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_hehuadaobiyu.lua"},
-	{675,35,5,131,1898,3430,0,"H?Hoa ®¹o Nh?Yªn",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_hehuadaoruyan.lua"},
-	{675,35,5,131,1889,3404,0,"H?Hoa ®¹o T¨ng Méng",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_hehuadaocengmeng.lua"},
-	{676,55,5,162,1728,2969,0,"T?diÖn Ma V­¬ng Long Truy v?",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_longzhuiwu.lua"},
-	{670,30,5,80,1395,3443,0," (Nh©n vËt v?l©m) L©u Hoµng Thiªn",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_wulinrenwulouqianxue.lua"},
-	{670,30,5,80,1383,3447,0," (Nh©n vËt v?l©m) TÇn Thêi Phong",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_wulinrenwuqinshifeng.lua"},
-	{670,30,5,80,1377,3435,0," (Nh©n vËt v?l©m) Lam ChiÕn",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_wulinrenwulanzhan.lua"},
-	{670,30,5,80,1381,3418,0," (Nh©n vËt v?l©m) Do·n Song §ång",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_wulinrenwuyinshuangtong.lua"},
-	{670,30,5,80,1390,3405,0," (Nh©n vËt v?l©m) Ph?L·nh",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_wulinrenwufeileng.lua"},
-	{669,25,5,80,2004,2876,0,"TriÒu Thiªn bang ch?L?Tr­êng Thiªn",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_luchangtian.lua"},
+	{675,35,5,131,1878,3400,0,"Hµ Hoa ®¹o Bİch Ngäc",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_hehuadaobiyu.lua"},
+	{675,35,5,131,1898,3430,0,"Hµ Hoa ®¹o Nh­ Yªn",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_hehuadaoruyan.lua"},
+	{675,35,5,131,1889,3404,0,"Hµ Hoa ®¹o T¨ng Méng",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_hehuadaocengmeng.lua"},
+	{676,55,5,162,1728,2969,0,"Tö diÖn Ma V­¬ng Long Truy vò ",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_longzhuiwu.lua"},
+	{670,30,5,80,1395,3443,0," (Nh©n vËt vâ l©m) L©u Hoµng Thiªn",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_wulinrenwulouqianxue.lua"},
+	{670,30,5,80,1383,3447,0," (Nh©n vËt vâ l©m) TÇn Thêi Phong",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_wulinrenwuqinshifeng.lua"},
+	{670,30,5,80,1377,3435,0," (Nh©n vËt vâ l©m) Lam ChiÕn",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_wulinrenwulanzhan.lua"},
+	{670,30,5,80,1381,3418,0," (Nh©n vËt vâ l©m) Do·n Song §ång",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_wulinrenwuyinshuangtong.lua"},
+	{670,30,5,80,1390,3405,0," (Nh©n vËt vâ l©m) Phİ L·nh",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_wulinrenwufeileng.lua"},
+	{669,25,5,80,2004,2876,0,"TriÒu Thiªn bang chñ Lé Tr­êng Thiªn",0,"\\script\\task\\newtask\\branch\\zhongli\\enemy_luchangtian.lua"},
 
-	-- NPC Long Ng?- NhiÖm v?Hoµng Kim
-		--{663,80,4,20,3545,6223,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-		--{663,80,4,53,1618,3169,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-		--{663,80,4,121,2010,4484,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-		--{663,80,4,99,1625,3194,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-		--{663,80,4,100,1621,3170,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-		--{663,80,4,101,1692,3140,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-		--{663,80,4,174,1639,3291,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
-		--{663,80,4,153,1622,3242,0,"Long Ng?,0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+	-- NPC Long Ngò - NhiÖm vô Hoµng Kim
+		--{663,80,4,20,3545,6223,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+		--{663,80,4,53,1618,3169,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+		--{663,80,4,121,2010,4484,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+		--{663,80,4,99,1625,3194,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+		--{663,80,4,100,1621,3170,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+		--{663,80,4,101,1692,3140,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+		--{663,80,4,174,1639,3291,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
+		--{663,80,4,153,1622,3242,0,"Long Ngò",0,"\\script\\task\\newtask\\education\\Â·ÈË_ÁúÎå.lua"},
 
 	{646,80,4,162,1469,3168,0,"M¹c SÇu",0,"\\script\\Î÷ÄÏÄÏÇø\\´óÀí¸®\\´óÀí¸®\\npc\\Â·ÈË_Äª³î.lua"},
 	{648,80,4,162,1468,3167,0,"M¹c X¶o Nhi",0,"\\script\\Î÷ÄÏÄÏÇø\\´óÀí¸®\\´óÀí¸®\\npc\\Â·ÈË_ÄªÇÉ¶ù.lua"},
-	{649,80,4,11,3226,5118,0,"C«ng T?TiÕu",0,"\\script\\Î÷ÄÏ±±Çø\\³É¶¼\\³É¶¼\\Â·ÈËnpc\\Â·ÈË_¹«×ÓĞ¦.lua"},
+	{649,80,4,11,3226,5118,0,"C«ng Tö TiÕu",0,"\\script\\Î÷ÄÏ±±Çø\\³É¶¼\\³É¶¼\\Â·ÈËnpc\\Â·ÈË_¹«×ÓĞ¦.lua"},
 	{678,20,5,179,2033,2755,0,"Ninh t­íng qu©n",0,"\\script\\task\\newtask\\master\\zhongli\\enemy_ningjiangjun.lua"},
 	{647,20,5,162,1635,2977,0,"M¹c SÇu",0,"\\script\\task\\newtask\\master\\zhengpai\\Õ½¶·_Äª³î.lua"},
 	{653,30,5,141,1540,3324,0,"Giíi L­u Phong",0,"\\script\\task\\newtask\\master\\zhengpai\\Õ½¶·_½çÁ÷·ç.lua"},
-	{679,30,5,136,1613,3194,0,"L?ThiÖn T­îng",0,"\\script\\task\\newtask\\master\\zhongli\\enemy_lushanxiang.lua"},
-	{654,40,5,173,1555,3054,0,"T?§ao HiÖp",0,"\\script\\task\\newtask\\master\\zhengpai\\Õ½¶·_×Ïµ¶ÏÀ.lua"},
-	{680,40,5,5,1455,3437,0,"T?T?Lùc",0,"\\script\\task\\newtask\\master\\zhongli\\enemy_xuzili.lua"},
+	{679,30,5,136,1613,3194,0,"L­ ThiÖn T­îng",0,"\\script\\task\\newtask\\master\\zhongli\\enemy_lushanxiang.lua"},
+	{654,40,5,173,1555,3054,0,"Tö §ao HiÖp",0,"\\script\\task\\newtask\\master\\zhengpai\\Õ½¶·_×Ïµ¶ÏÀ.lua"},
+	{680,40,5,5,1455,3437,0,"Tõ Tù Lùc",0,"\\script\\task\\newtask\\master\\zhongli\\enemy_xuzili.lua"},
 	{655,50,5,24,2114,3323,0,"O¸n §éc",0,"\\script\\task\\newtask\\master\\zhengpai\\Õ½¶·_Ô¹¶¾.lua"},
-	{681,50,5,66,1596,3300,0,"Hµn Ng?¤ng ",0,"\\script\\task\\newtask\\master\\zhongli\\enemy_hanjiangdudiaosou.lua"},
-	{667,60,5,79,1683,3144,0,"Ng­êi thÇn b?",0,"\\script\\task\\newtask\\master\\zhengpai\\Õ½¶·_ÄÏ¹¬·ÉÔÆ.lua"},
-	{666,60,5,103,1750,2668,0,"Kh«ng TŞch §¹i S?,0,"\\script\\task\\newtask\\master\\zhongli\\enemy_shaolinkongji.lua"},
+	{681,50,5,66,1596,3300,0,"Hµn Ng­ ¤ng ",0,"\\script\\task\\newtask\\master\\zhongli\\enemy_hanjiangdudiaosou.lua"},
+	{667,60,5,79,1683,3144,0,"Ng­êi thÇn bİ ",0,"\\script\\task\\newtask\\master\\zhengpai\\Õ½¶·_ÄÏ¹¬·ÉÔÆ.lua"},
+	{666,60,5,103,1750,2668,0,"Kh«ng TŞch §¹i S­",0,"\\script\\task\\newtask\\master\\zhongli\\enemy_shaolinkongji.lua"},
 	{651,80,4,176,1630,2992,0,"M·nh Phµm",0,"\\script\\½­ÄÏÇø\\ÁÙ°²\\ÁÙ°²\\npc\\Â·ÈË_ÃÏ·².lua"},
-	{650,80,4,80,1703,3119,0,"H?V?Th?",0,"\\script\\ÖĞÔ­ÄÏÇø\\ÑïÖİ\\npc\\Â·ÈË_ÏÄÎŞÇÒ.lua"},
-	{665,80,4,103,1774,2842,0,"Kh«ng TŞch §¹i S?,0,"\\script\\ÖĞÔ­±±Çø\\ÉÙÁÖÅÉ\\ÉÙÁÖÅÉ\\npc\\passerby_shaolinkongji.lua"},
-	{677,80,4,59,1640,3186,0,"Hµn Ng?¤ng ",0,"\\script\\Á½ºşÇø\\ÌìÍõ°ï\\ÌìÍõ°ï\\npc\\passerby_hanjiangdudiaosou.lua"},
+	{650,80,4,80,1703,3119,0,"H¹ V« Th¶ ",0,"\\script\\ÖĞÔ­ÄÏÇø\\ÑïÖİ\\npc\\Â·ÈË_ÏÄÎŞÇÒ.lua"},
+	{665,80,4,103,1774,2842,0,"Kh«ng TŞch §¹i S­",0,"\\script\\ÖĞÔ­±±Çø\\ÉÙÁÖÅÉ\\ÉÙÁÖÅÉ\\npc\\passerby_shaolinkongji.lua"},
+	{677,80,4,59,1640,3186,0,"Hµn Ng­ ¤ng ",0,"\\script\\Á½ºşÇø\\ÌìÍõ°ï\\ÌìÍõ°ï\\npc\\passerby_hanjiangdudiaosou.lua"},
 	{723,25,5,332,1262,2821,0,"Tµng B¶o kh¸ch",0,"\\script\\task\\newtask\\branch\\zhengpai\\enemy_cangbaoke.lua"},
 	{723,25,5,332,1220,2833,0,"Tµng B¶o kh¸ch",0,"\\script\\task\\newtask\\branch\\zhengpai\\enemy_cangbaoke.lua"},
 	{723,25,5,332,1244,2881,0,"Tµng B¶o kh¸ch",0,"\\script\\task\\newtask\\branch\\zhengpai\\enemy_cangbaoke.lua"},
@@ -216,23 +216,23 @@ addnewtasknpc={
 	{720,45,2,195,593,3070,0,"Lôc Phi ",0,"\\script\\task\\newtask\\master\\xiepai\\Õ½¶·_Â½·Ç.lua"},
 	{718,90,2,121,2016,4490,0,"§oan Méc Thanh",0,"\\script\\task\\newtask\\master\\xiepai\\Â·ÈË_¶ËÄ¾Çå.lua"},
 	{714,90,2,176,1628,3209,0,"Th¸i C«ng C«ng",0,"\\script\\task\\newtask\\master\\xiepai\\Â·ÈË_²Ì¹«¹«.lua"},
-	{722,30,2,90,1814,3283,0,"TiÓu K?Nhi ",0,"\\script\\task\\newtask\\master\\xiepai\\Õ½¶·_Ğ¡ì÷¶ù.lua"},
-	{719,90,2,80,1592,3118,0,"Tiªu s?",0,"\\script\\task\\newtask\\master\\xiepai\\ÑïÖİ_ïÚÊ¦.lua"},
-	{716,45,2,21,2710,3947,0,"H?HÇu Phôc",0,"\\script\\task\\newtask\\master\\xiepai\\Õ½¶·_ÏÄºî¸´.lua"},
-	{715,90,2,174,1593,3256,0,"Ph?L«i Th?",0,"\\script\\task\\newtask\\master\\xiepai\\Â·ÈË_¸µÀ×Êé.lua"},
-	{717,55,2,92,1944,3214,0,"TiÕu V?Th­êng ",0,"\\script\\task\\newtask\\master\\xiepai\\Õ½¶·_Ğ¤ÎŞ³£.lua"},
+	{722,30,2,90,1814,3283,0,"TiÓu Kú Nhi ",0,"\\script\\task\\newtask\\master\\xiepai\\Õ½¶·_Ğ¡ì÷¶ù.lua"},
+	{719,90,2,80,1592,3118,0,"Tiªu s­ ",0,"\\script\\task\\newtask\\master\\xiepai\\ÑïÖİ_ïÚÊ¦.lua"},
+	{716,45,2,21,2710,3947,0,"H¹ HÇu Phôc",0,"\\script\\task\\newtask\\master\\xiepai\\Õ½¶·_ÏÄºî¸´.lua"},
+	{715,90,2,174,1593,3256,0,"Phã L«i Th­ ",0,"\\script\\task\\newtask\\master\\xiepai\\Â·ÈË_¸µÀ×Êé.lua"},
+	{717,55,2,92,1944,3214,0,"TiÕu V« Th­êng ",0,"\\script\\task\\newtask\\master\\xiepai\\Õ½¶·_Ğ¤ÎŞ³£.lua"},
 	{721,65,2,40,1688,3032,0,"§å §¹i nh©n",0,"\\script\\task\\newtask\\master\\xiepai\\Õ½¶·_Í½µ¥´óÈË.lua"},
 	{694,80,2,94,1551,3149,0,"Liªu §Şnh",0,"\\script\\task\\newtask\\master\\xiepai\\Õ½¶·_ÁÎ¶¨.lua"},
 
 	----Ñ×µÛ±¦²Ønpc
-	--{1321,80,4,176,1420,3309,0,"B×nh B×nh C?N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
-	--{1321,80,4,176,1664,3244,0,"B×nh B×nh C?N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
-	--{1321,80,4,176,1559,2917,0,"B×nh B×nh C?N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
-	--{1321,80,4,176,1373,2970,0,"B×nh B×nh C?N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
-	--{1320,80,4,37,1714,3173,0,"B×nh B×nh C?N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
-	--{1320,80,4,37,1642,3145,0,"B×nh B×nh C?N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
-	--{1320,80,4,37,1622,3019,0,"B×nh B×nh C?N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
-	--{1320,80,4,37,1857,2968,0,"B×nh B×nh C?N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
+	--{1321,80,4,176,1420,3309,0,"B×nh B×nh C« N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
+	--{1321,80,4,176,1664,3244,0,"B×nh B×nh C« N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
+	--{1321,80,4,176,1559,2917,0,"B×nh B×nh C« N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
+	--{1321,80,4,176,1373,2970,0,"B×nh B×nh C« N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
+	--{1320,80,4,37,1714,3173,0,"B×nh B×nh C« N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
+	--{1320,80,4,37,1642,3145,0,"B×nh B×nh C« N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
+	--{1320,80,4,37,1622,3019,0,"B×nh B×nh C« N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
+	--{1320,80,4,37,1857,2968,0,"B×nh B×nh C« N­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yandibaozang_main.lua"},
 
 	--{389,80,4,851,1577,3184,0,"D­îc th­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yaoshang.lua"},
 	--{389,80,4,851,1607,3178,0,"D­îc th­¬ng",0,"\\script\\missions\\yandibaozang\\npc\\yaoshang.lua"},
@@ -243,12 +243,12 @@ addnewtasknpc={
 
 
 addmasknpc = {
-	--{375,1,1554,3137,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt s?},
-	--{375,11,3164,4957,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt s?},
-	--{375,162,1632,3274,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt s?},
-	--{375,37,1771,2978,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt s?},
-	--{375,78,1498,3276,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt s?},
-	--{375,80,1628,3071,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt s?},
+	--{375,1,1554,3137,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt sÜ"},
+	--{375,11,3164,4957,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt sÜ"},
+	--{375,162,1632,3274,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt sÜ"},
+	--{375,37,1771,2978,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt sÜ"},
+	--{375,78,1498,3276,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt sÜ"},
+	--{375,80,1628,3071,"\\script\\global\\Â·ÈË_Ò×ÈİÊõÊ¿.lua","DŞch dung thuËt sÜ"},
 	
 }
 
@@ -274,25 +274,25 @@ tab_zingplay_npc = {
 -- ZingPlayÊ¹ÕßÒÑ¾­¹ıÆÚ 2008-09-27
 -- »»³É ½ÌÊ¦½Ú»î¶¯µÄ¶÷Ê¦ 2008-10-03
 -- »»³É JxWeb¹µÍ¨Ê¹Õß 2009-04-13
-	--{354,11,3150,5075,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","S?Gi?Ho¹t §éng"},
-	--{354,1,1611,3096,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","S?Gi?Ho¹t §éng"},
-	--{354,37,1725,3090,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","S?Gi?Ho¹t §éng"},
-	--{354,176,1557,2981,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","S?Gi?Ho¹t §éng"},
-	--{354,162,1654,3233,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","S?Gi?Ho¹t §éng"},
-	--{354,78,1599,3292,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","S?Gi?Ho¹t §éng"},
-	--{354,80,1737,2958,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","S?Gi?Ho¹t §éng"},
+	--{354,11,3150,5075,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","Sø Gi¶ Ho¹t §éng"},
+	--{354,1,1611,3096,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","Sø Gi¶ Ho¹t §éng"},
+	--{354,37,1725,3090,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","Sø Gi¶ Ho¹t §éng"},
+	--{354,176,1557,2981,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","Sø Gi¶ Ho¹t §éng"},
+	--{354,162,1654,3233,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","Sø Gi¶ Ho¹t §éng"},
+	--{354,78,1599,3292,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","Sø Gi¶ Ho¹t §éng"},
+	--{354,80,1737,2958,	"\\script\\event\\other\\jxweb_npc\\npc_jxweb.lua","Sø Gi¶ Ho¹t §éng"},
 }
 
 --220/192
 local tbActNpcList =
 {
-	--{311,176,1593,2943,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Th?LuyÖn §­êng"},
-	--{311,11,3108,5060,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Th?LuyÖn §­êng"},
-	--{311,1,1585,3230,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Th?LuyÖn §­êng"},
-	--{311,37,1740,3065,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Th?LuyÖn §­êng"},
-	--{311,162,1613,3190,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Th?LuyÖn §­êng"},
-	--{311,78,1608,3238,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Th?LuyÖn §­êng"},
-	--{311,80,1704,3058,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Th?LuyÖn §­êng"},
+	--{311,176,1593,2943,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Thİ LuyÖn §­êng"},
+	--{311,11,3108,5060,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Thİ LuyÖn §­êng"},
+	--{311,1,1585,3230,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Thİ LuyÖn §­êng"},
+	--{311,37,1740,3065,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Thİ LuyÖn §­êng"},
+	--{311,162,1613,3190,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Thİ LuyÖn §­êng"},
+	--{311,78,1608,3238,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Thİ LuyÖn §­êng"},
+	--{311,80,1704,3058,"\\script\\missions\\dungeon\\dungeons\\shiliantang\\jieyinren.lua","Thİ LuyÖn §­êng"},
 	
 	--{1327, 20,3554,6188,"\\script\\event\\zhongqiu_jieri\\200909\\rongshu\\shitouernpc.lua","TiÓu Thiªn"},
 	--{1327, 174,1628,3218,"\\script\\event\\zhongqiu_jieri\\200909\\rongshu\\shitouernpc.lua","TiÓu Thiªn"},
@@ -303,28 +303,28 @@ local tbActNpcList =
 	--{1327, 53,1632,3199,"\\script\\event\\zhongqiu_jieri\\200909\\rongshu\\shitouernpc.lua","TiÓu Thiªn"},
 		
 	
-	{1393,176,1657,3261,"\\script\\missions\\dangboss\\gongnv_npc.lua","Ch­ëng §¨ng Cung N?},
-	{1393,176,1577,2957,"\\script\\missions\\dangboss\\gongnv_npc.lua","Ch­ëng §¨ng Cung N?},
-	{1393,176,1439,3267,"\\script\\missions\\dangboss\\gongnv_npc.lua","Ch­ëng §¨ng Cung N?},
-	{1393,176,1385,2977,"\\script\\missions\\dangboss\\gongnv_npc.lua","Ch­ëng §¨ng Cung N?},
---	{1393,53,1632,3192,"\\script\\missions\\dangboss\\gongnv_npc.lua","Ch­ëng §¨ng Cung N?},	
+	{1393,176,1657,3261,"\\script\\missions\\dangboss\\gongnv_npc.lua","Ch­ëng §¨ng Cung N÷"},
+	{1393,176,1577,2957,"\\script\\missions\\dangboss\\gongnv_npc.lua","Ch­ëng §¨ng Cung N÷"},
+	{1393,176,1439,3267,"\\script\\missions\\dangboss\\gongnv_npc.lua","Ch­ëng §¨ng Cung N÷"},
+	{1393,176,1385,2977,"\\script\\missions\\dangboss\\gongnv_npc.lua","Ch­ëng §¨ng Cung N÷"},
+--	{1393,53,1632,3192,"\\script\\missions\\dangboss\\gongnv_npc.lua","Ch­ëng §¨ng Cung N÷"},	
 
 
-	--{1454, 80,1768,3029,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","L?B¸nh"},
-	--{1454, 11,3136,5065,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","L?B¸nh"},
-	--{1454, 162,1622,3184,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","L?B¸nh"},
-	--{1454, 1,1596,3200,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","L?B¸nh"},
-	--{1454, 78,1579,3230,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","L?B¸nh"},
-	--{1454, 37,1776,3049,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","L?B¸nh"},
-	--{1454, 176,1577,2950,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","L?B¸nh"},
+	--{1454, 80,1768,3029,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","Lß B¸nh"},
+	--{1454, 11,3136,5065,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","Lß B¸nh"},
+	--{1454, 162,1622,3184,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","Lß B¸nh"},
+	--{1454, 1,1596,3200,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","Lß B¸nh"},
+	--{1454, 78,1579,3230,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","Lß B¸nh"},
+	--{1454, 37,1776,3049,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","Lß B¸nh"},
+	--{1454, 176,1577,2950,"\\script\\event\\zhongqiu_jieri\\200909\\dajibing\\head.lua","Lß B¸nh"},
 	
-	--{218, 80,1737,2988,"\\script\\activitysys\\npcdailog.lua","C?giíi tiªn sinh"},
-	--{218, 11,3133,4987,"\\script\\activitysys\\npcdailog.lua","C?giíi tiªn sinh"},
-	--{218, 1,1620,3145,"\\script\\activitysys\\npcdailog.lua","C?giíi tiªn sinh"},
-	--{218, 37,1812,3090,"\\script\\activitysys\\npcdailog.lua","C?giíi tiªn sinh"},
-	--{218, 176,1496,2971,"\\script\\activitysys\\npcdailog.lua","C?giíi tiªn sinh"},
-	--{218, 162,1594,3210,"\\script\\activitysys\\npcdailog.lua","C?giíi tiªn sinh"},
-	--{218, 78,1546,3240,"\\script\\activitysys\\npcdailog.lua","C?giíi tiªn sinh"},
+	--{218, 80,1737,2988,"\\script\\activitysys\\npcdailog.lua","Cæ giíi tiªn sinh"},
+	--{218, 11,3133,4987,"\\script\\activitysys\\npcdailog.lua","Cæ giíi tiªn sinh"},
+	--{218, 1,1620,3145,"\\script\\activitysys\\npcdailog.lua","Cæ giíi tiªn sinh"},
+	--{218, 37,1812,3090,"\\script\\activitysys\\npcdailog.lua","Cæ giíi tiªn sinh"},
+	--{218, 176,1496,2971,"\\script\\activitysys\\npcdailog.lua","Cæ giíi tiªn sinh"},
+	--{218, 162,1594,3210,"\\script\\activitysys\\npcdailog.lua","Cæ giíi tiªn sinh"},
+	--{218, 78,1546,3240,"\\script\\activitysys\\npcdailog.lua","Cæ giíi tiªn sinh"},
 	
 	--S? dông l¹i npc B? Long c? - Modified by DinhHQ - 20110810
 	--{1448,11,3123,4996,	"\\script\\event\\jiefang_jieri\\201004\\longer.lua","Long nhi"},
@@ -336,11 +336,11 @@ local tbActNpcList =
 	--{1448,80,1737,2985,"\\script\\event\\jiefang_jieri\\201004\\longer.lua","Long nhi"},
 	--{1448,37,1769,3056,"\\script\\event\\jiefang_jieri\\201004\\longer.lua","Long nhi"},
 	
-	--{1801, 176,1420,3298, "\\script\\activitysys\\npcdailog.lua","V?L©m Minh Ch?},		-- ÎäÁÖÃËÖ÷ĞÂµñÏñ
-	--{1802, 176,1424,3300, "\\script\\activitysys\\npcdailog.lua","V?L©m Minh Ch?},		-- ÎäÁÖÃËÖ÷ĞÂµñÏñ
+	--{1801, 176,1420,3298, "\\script\\activitysys\\npcdailog.lua","Vâ L©m Minh Chñ"},		-- ÎäÁÖÃËÖ÷ĞÂµñÏñ
+	--{1802, 176,1424,3300, "\\script\\activitysys\\npcdailog.lua","Vâ L©m Minh Chñ"},		-- ÎäÁÖÃËÖ÷ĞÂµñÏñ
 	--{455, 37,1762,3051,"\\script\\missions\\bairenleitai\\npc_enter.lua","ThÇn tµi"},
-	-- {1801, 53,1606,3207, "\\script\\activitysys\\npcdailog.lua","§éc C?CÇu B¹i *  HKVL  *"},
-	-- {108, 176,1451,3233,"\\script\\missions\\arena\\npc\\officer.lua","C¶nh k?tr­êng quan viªn"},
+	-- {1801, 53,1606,3207, "\\script\\activitysys\\npcdailog.lua","§éc C« CÇu B¹i *  HKVL  *"},
+	-- {108, 176,1451,3233,"\\script\\missions\\arena\\npc\\officer.lua","C¶nh kü tr­êng quan viªn"},
 	--{108, 176,1471,3243, "\\script\\activitysys\\npcdailog.lua","Thiªn Trïng L·o Nh©n"},
 };
 
@@ -351,7 +351,7 @@ Include("\\script\\task\\150skilltask\\g_task.lua")
 
 Include("\\script\\huashan\\npcfaction.lua")
 function main()
------------------------ChØnh Server V?ch?®é Free PK -------------------------
+-----------------------ChØnh Server VÒ chÕ ®é Free PK -------------------------
 	if ChinhServerPkNhanFullDoVaCap == 1 and ChuyenDoiTrangBiHoangKim == 1 then
 	Add_Npc_ChuyenDoiTrangBiHKMP()
 	end
@@ -552,10 +552,10 @@ local tbTiFuNpc =
 {
 	tbNpc =
 	{
-		{nNpcId=377, szName="L?Quan", nPosX=1532, nPosY=3231, szScript="\\script\\global\\Â·ÈË_Àñ¹Ù.lua"},
-		{nNpcId=389, szName="Ch?d­îc ®iÕm", nPosX=1556, nPosY=3242, szScript="\\script\\global\\npc\\yaodian.lua"},
+		{nNpcId=377, szName="LÔ Quan", nPosX=1532, nPosY=3231, szScript="\\script\\global\\Â·ÈË_Àñ¹Ù.lua"},
+		{nNpcId=389, szName="Chñ d­îc ®iÕm", nPosX=1556, nPosY=3242, szScript="\\script\\global\\npc\\yaodian.lua"},
 		{nNpcId=240, szName="ThuyÒn Phu", nPosX=1519, nPosY=3237, szScript="\\script\\global\\npc\\chuanfu.lua"},
-		{nNpcId=309, szName="C«ng B×nh T?, nPosX=1570, nPosY=3233, szScript="\\script\\missions\\bw\\bwmanager.lua"},
+		{nNpcId=309, szName="C«ng B×nh Tö", nPosX=1570, nPosY=3233, szScript="\\script\\missions\\bw\\bwmanager.lua"},
 	},
 	tbMap = {235, 236, 237, 238},
 }

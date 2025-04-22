@@ -1,0 +1,4 @@
+*.log
+gateway/Logs/
+server1/logs/
+gateway/Backup/
