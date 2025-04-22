@@ -1,4 +1,4 @@
 *.log
 gateway/Logs/
-server1/logs/
+server1/Logs/
 gateway/Backup/
