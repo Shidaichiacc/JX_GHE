@@ -33,7 +33,7 @@ BIGBOSS_FILE_POS =
 	"\\settings\\bosshoangkim\\maps\\bigboss\\phuongtuong.txt",
 	"\\settings\\bosshoangkim\\maps\\bigboss\\tuongduong.txt",
 	"\\settings\\bosshoangkim\\maps\\bigboss\\thanhdo.txt",
-	"\\settings\\bosshoangkim\\maps\\bigboss\\duongtrungdong.txt",
+	--"\\settings\\bosshoangkim\\maps\\bigboss\\duongtrungdong.txt",
 	--"\\settings\\bosshoangkim\\maps\\bigboss\\khoalangdong.txt",
 	--"\\settings\\bosshoangkim\\maps\\bigboss\\luongthuydong.txt",
 	--"\\settings\\bosshoangkim\\maps\\bigboss\\maccaoquat.txt",
@@ -491,7 +491,7 @@ BIGBOSS_AWARD =
 
 
 BOSS_DEATH_SCRIPT = "\\script\\global\\pgaming\\missions\\bosshoangkim\\bossdai\\goldboss_death.lua";
-TIME_BIGBOSS_REMOVE = 50*60*18;
+TIME_BIGBOSS_REMOVE = 90*60*18;
 
 BossDataSave = {};
 

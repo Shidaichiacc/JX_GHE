@@ -9,17 +9,19 @@ Include("\\script\\global\\general\\hotrotanthu\\vongsangtanthu.lua")
 Include("\\script\\global\\general\\thunghiem\\kynangmonphai.lua")
 Include("\\script\\event\\bingo_machine\\bingo_machine_gs.lua")
 Include("\\script\\global\\pgaming\\configserver\\configall.lua")
+Include("\\script\\global\\general\\thunghiem\\taytuynhanh.lua")
 
 function main()
 	dofile("script/global/general/hotrotanthu/main.lua")
 	local tbSay = {"<dec>Hç trî ng­êi ch¬i tham gia m¸y chñ Vâ L©m TruyÒn Kú"};
 		--tinsert(tbSay, "Vßng quay may m¾n/vongquaymayman")
-		--tinsert(tbSay, "NhËn mèc phÇn th­ëng hç trî theo tõng cÊp ®é/PhanThuongHoTro")
+		tinsert(tbSay, "NhËn mèc phÇn th­ëng hç trî theo tõng cÊp ®é/PhanThuongHoTro")
 		--tinsert(tbSay, "NhËn tói m¸u hç trî t©n thñ/NhanTuiMauTanThu")
-
+		--tinsert(tbSay, "NhËn tói m¸u hç trî t©n thñ/NhanTuiMauTanThu")	
 	if NhanHoTroKyNang1xDen150 == 1  then
 		tinsert(tbSay, "Häc tÊt c¶ c¸c kü n¨ng m«n ph¸i/HocKyNangMonPhai")
 	end
+		tinsert(tbSay, "TÈy tñy nhanh/TayTuyNhanh")
 		--tinsert(tbSay, "NhËn vßng s¸ng t©n thñ/VongSangTanThu")
 		tinsert(tbSay, "KÕt thóc ®èi tho¹i./no")
 	CreateTaskSay(tbSay)

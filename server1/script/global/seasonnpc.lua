@@ -39,7 +39,7 @@ local nNum     = GetTask(ID_TASKLINK_LIMITNUM);
 		return 1;
 		
 	else
-		 40 ´ÎµÄÏŞÖÆ
+		 --40 ´ÎµÄÏŞÖÆ
 		if (nNum >= 40) then
 			Say("Ha! Ha! Ng­¬i thËt sù rÊt cã tµi n¨ng! H«m nay ng­¬i ®· lµm ®ñ 40 nhiÖm vô råi, t¹m thêi h·y nghÜ ng¬i ®i! Ngµy mai trë l¹i nhĞ!", 0);
 			return 0;

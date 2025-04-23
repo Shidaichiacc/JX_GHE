@@ -174,15 +174,21 @@ function main(nItemIndex)
 			tinsert(tbSay, "Gi¶i kÑt nh©n vËt/KetAcc");
 			tinsert(tbSay, "§æi Mµu PK/trangthai")
 			--tinsert(tbSay, "hotrotanthu/HoTroTanThu");
-			--tinsert(tbSay, "Fix/ChangeKNBToCoin_FixBug");			
+			--tinsert(tbSay, "Fix/ChangeKNBToCoin_FixBug");	
+			--tinsert(tbSay, "Fix/test");			
 			tinsert(tbSay,"Hñy vËt phÈm/DisposeItem")
 			tinsert(tbSay, "KÕt thóc ®èi tho¹i./no")
 			
 		CreateTaskSay(tbSay)
 	return 1;
 end
+------------------test
+function test()
+AddQualityItem(2, 0, 0, 0, 10, random(0,4),-1)
+AddMagic(332,20)
+end
 -----------------------------------goi boss----------------------------------------------
-
+------------------------------------------------------------------------------------------
 function GoiBoss_HoangKim()
 	BossHK(f_bossx,f_bossy)
 	end

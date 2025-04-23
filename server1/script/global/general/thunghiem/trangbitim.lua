@@ -202,6 +202,71 @@ function EquipPurpleOK(tbEquip)
 		AddQualityItem(2,tbEquip[1], tbEquip[2], tbEquip[3], 10, i, 0, -1,-1,-1,-1,-1,-1)
 	end
 end
+--------------------------doi trang bi tim random dong	
+function trangbitimrandom()
+	local nVLL = CalcEquiproomItemCount(6,1,4903,-1)
+	if nVLL < 1 then
+		Talk(1, "", "Can 1 Vo Lam Lenh de doi.")
+		return
+	end
+	if (CalcFreeItemCellCount() < 20) then
+		Talk(1, "", "Hµnh trang cña b¹n kh«ng ®ñ 20 « trèng.")
+	return end
+	local tbEquip = TAB_OPTION;
+	local szTitle = "Ng­¬i muèn nhËn lo¹i nµo?"
+	local tbOption = {};
+	for x, y in tbEquip do
+		tinsert(tbOption, {format("%s", x), trangbitimrandom1,{tbEquip[x]}})
+	end
+		tinsert(tbOption, {"KÕt thóc ®èi tho¹i."})
+	CreateNewSayEx(szTitle, tbOption)
+end
+
+function trangbitimrandom1(tbEquip)
+
+	local szTitle = "Ng­¬i muèn nhËn lo¹i nµo?"
+	local tbOption = {};
+	for x, y in tbEquip do
+		tinsert(tbOption, {format("%s", x), trangbitimrandom2,{tbEquip[x]}})
+	end
+		tinsert(tbOption, {"KÕt thóc ®èi tho¹i."})
+	CreateNewSayEx(szTitle, tbOption)
+end
+
+function trangbitimrandom2(tbEquip)
+	local nVLL = CalcEquiproomItemCount(6,1,4903,-1)
+	if nVLL < 1 then
+		Talk(1, "", "Can 1 Vo Lam Lenh de doi.")
+		return
+	end
+
+	if CalcFreeItemCellCount() < 1 then
+		Talk(1, "", "Khong du o trong.")
+		return
+	end
+
+	local nDong = random(1, 6)
+	ConsumeEquiproomItem(1, 6, 1, 4903, -1)
+
+	-- T?o dòng phép ?úng s? l??ng truy?n th? công
+	if nDong == 1 then
+		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1)
+	elseif nDong == 2 then
+		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1, -1)
+	elseif nDong == 3 then
+		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1, -1, -1)
+	elseif nDong == 4 then
+		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1, -1, -1, -1)
+	elseif nDong == 5 then
+		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1, -1, -1, -1, -1)
+	else
+		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1, -1, -1, -1, -1, -1)
+	end
+
+	Talk(1, "", "Ban da nhan 1 trang bi tim voi "..nDong.." dong thuoc tinh.")
+end
+
+
 
 -- pEventType:Reg("TÝnh n¨ng thö nghiÖm", "Trang bÞ ®å tÝm", TrangBiTim);
 -- pEventType:Reg("LÖnh bµi T©n Thñ", "Trang bÞ ®å tÝm", TrangBiTim);

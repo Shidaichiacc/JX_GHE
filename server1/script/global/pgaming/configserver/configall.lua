@@ -37,8 +37,8 @@ SoTienBaoDanhCanNop = 10000000
 SoKhieuChienLenhCanNop = 500
 -----TÝn Sø------
 HoatDongTinSu = 1
-TinSuPhongKy = 1  
-TinSuThienBaoKho = 0
+TinSuPhongKy = 0  
+TinSuThienBaoKho = 1
 TinSuSonThanMieu = 0
 Mo3LoaiTinSuNhuVNG = 0 --(Phong Kú: BiÖn Kinh - D­¬ng Ch©u, Th­¬ng B¶o Khè: Thµnh §« - T­¬ng D­¬ng, S¬n ThÇn MiÕu: L©m An - Ph­îng T­êng, §¹i Lý random 3 map)
 ---Boss Hoµng Kim------
@@ -83,7 +83,7 @@ ScriptMuaTBThoRen = 0
 TatNPCBanNguaAllThanh = 0
 ScriptBanNgua = 0
 --------NPC Hç Trî-------------
-NPC_HoTro = 1 --Trung T©m Ba L¨ng HuyÖn
+NPC_HoTro = 1 --Trung T©m Ba L¨ng HuyÖn -- npc doi vat pham
 --============================================================================================================--
 --												TÝnh N¨ng													  --
 --============================================================================================================--
@@ -202,7 +202,7 @@ nTocDoLuyenSkillConLon = 2
 --============================================================================================================--
 --													Event 12 th¸ng											  --
 --============================================================================================================--
-EventTuDong = 0
+EventTuDong = 1
 ------------------------------------------------------------------------
 --		Giíi h¹n sö dông Event th­êng vµ ®Æc biÖt			--
 ------------------------------------------------------------------------

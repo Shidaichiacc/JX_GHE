@@ -290,7 +290,7 @@ function PowerUp(lvl)
 	AddMagic(36,60)		-- 天王战意
 	AddMagic(92,60)		-- 望月（回血光环）
 	AddMagic(282,60)		-- 梦蝶（回内光环）
-	AddMagic(333,60)		-- 慈航普渡（大补血）
+	AddMagic(332,60)		-- 慈航普渡（大补血）
 	AddMagic(712,60)		-- 慈航普渡（大补血）
 	AddMagic(130,60)	-- 醉蝶狂舞
 	AddMagic(75,60)		-- 五毒奇经
@@ -536,7 +536,7 @@ function AddSkills(Party,Level)
 			{282,20},
 			{328,20},
 			{380,20},
-			{333,20},
+			{332,20},
 			{712,20},
 		},
 		cy={
@@ -758,7 +758,7 @@ function DelSkills(Party)
 			{282,20},
 			{328,20},
 			{380,20},
-			{333,20},
+			{332,20},
 			{712,20},
 		},
 		cy={

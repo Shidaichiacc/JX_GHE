@@ -57,7 +57,7 @@ function genDesItemsInfo( arynNecessaryItemIdx )
 		 return RESULT_FAIL
 	 end
 	local aryDesItemInfo = {};
-	for i = 1, 5 do
+	for i = 1, 6 do --- so dong do tim
 		local arynMagLvl = { 0, 0, 0, 0, 0, 0 };
 		for j = 1, i do
 			arynMagLvl[j] = -1;

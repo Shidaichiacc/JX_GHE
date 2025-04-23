@@ -1,6 +1,7 @@
-
+Include("\\script\\global\\general\\hotrotanthu\\hotrolandau.lua")
 function PhanThuongHoTro()
 	local tbSay = {"Ng≠¨i muËn nhÀn ph«n th≠Îng hÁ trÓ Î mËc c p ÆÈ nµo?"};
+		tinsert(tbSay, "Ph«n th≠Îng Æπt mËc c p 10/HoTroLanDau")
 		tinsert(tbSay, "Ph«n th≠Îng Æπt mËc c p 20/PhanThuongHoTroCap20")
 		tinsert(tbSay, "Ph«n th≠Îng Æπt mËc c p 30/PhanThuongHoTroCap30")
 		tinsert(tbSay, "Ph«n th≠Îng Æπt mËc c p 40/PhanThuongHoTroCap40")
@@ -11,6 +12,10 @@ function PhanThuongHoTro()
 end
 
 function PhanThuongHoTroCap20()
+	if (CalcFreeItemCellCount() <40) then
+		Talk(1,"","Hµnh trang kh´ng ÆÒ 40 ´ trËng !")
+		return
+	end
 	local nLevel = 20;
 	if (GetLevel() < nLevel) then
 		Talk(1, "", "ßºng c p cÒa bπn ch≠a ÆÒ Æ” nhÀn ph«n th≠Îng nµy!")
@@ -33,6 +38,10 @@ function PhanThuongHoTroCap20()
 end
 
 function PhanThuongHoTroCap30()
+	if (CalcFreeItemCellCount() <40) then
+		Talk(1,"","Hµnh trang kh´ng ÆÒ 40 ´ trËng !")
+		return
+	end
 	local nLevel = 30;
 	if (GetLevel() < nLevel) then
 		Talk(1, "", "ßºng c p cÒa bπn ch≠a ÆÒ Æ” nhÀn ph«n th≠Îng nµy!")
@@ -67,6 +76,10 @@ function PhanThuongHoTroCap30()
 end
 
 function PhanThuongHoTroCap40()
+	if (CalcFreeItemCellCount() <40) then
+		Talk(1,"","Hµnh trang kh´ng ÆÒ 40 ´ trËng !")
+		return
+	end
 	local nLevel = 40;
 	if (GetLevel() < nLevel) then
 		Talk(1, "", "ßºng c p cÒa bπn ch≠a ÆÒ Æ” nhÀn ph«n th≠Îng nµy!")
@@ -97,6 +110,10 @@ function PhanThuongHoTroCap40()
 end
 
 function PhanThuongHoTroCap50()
+	if (CalcFreeItemCellCount() <40) then
+		Talk(1,"","Hµnh trang kh´ng ÆÒ 40 ´ trËng !")
+		return
+	end
 	local nLevel = 50;
 	if (GetLevel() < nLevel) then
 		Talk(1, "", "ßºng c p cÒa bπn ch≠a ÆÒ Æ” nhÀn ph«n th≠Îng nµy!")
@@ -131,6 +148,10 @@ function PhanThuongHoTroCap50()
 end
 
 function PhanThuongHoTroCap60()
+	if (CalcFreeItemCellCount() <40) then
+		Talk(1,"","Hµnh trang kh´ng ÆÒ 40 ´ trËng !")
+		return
+	end
 	local nLevel = 60;
 	if (GetLevel() < nLevel) then
 		Talk(1, "", "ßºng c p cÒa bπn ch≠a ÆÒ Æ” nhÀn ph«n th≠Îng nµy!")
@@ -163,6 +184,7 @@ function PhanThuongHoTroCap60()
 	local tbSupportList = {
 		{szName="TÛc S≠¨ng", tbProp={0,10,2,9,0,0}, nBindState=-2},
 		{szName="Ti™n Th∂o LÈ (Æ∆c bi÷t)", tbProp={6,1,1181,1,0,0}, nCount=3, nBindState=-2},
+		{szName="M∆t nπ V≠¨ng Gi∂", tbProp={0,11,561,1,0,0}, nBindState=-2, nExpiredTime=30*24*60},
 	};
 	tbAwardTemplet:GiveAwardByList(tbSupportList, "HÁ trÓ c p 60");
 	SetTaskModule(SUPPORT_PLAYER, GetName(), nLevel, 1)

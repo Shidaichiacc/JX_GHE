@@ -4,6 +4,7 @@ Include("\\script\\lib\\awardtemplet.lua")
 Include("\\script\\lib\\log.lua")
 Include("\\script\\global\\general\\thunghiem\\trangbihoangkimmaxopkhoa.lua")
 Include("\\script\\global\\pgaming\\configserver\\configall.lua")
+Include("\\script\\global\\general\\thunghiem\\trangbitim.lua")
 -----------------------------------------------
 ---------------------------------
 function main() 
@@ -19,6 +20,7 @@ dofile("script/global/pgaming/npc/freepk/doivatpham.lua")
 		{"§æi TÈy Tñy Kinh",DoiTayTuyKinh},
 		{"§æi B«n Tiªu",DoiBonTieu},
 		{"N©ng CÊp HT",moMenuHT},
+		--{"Ph«i TÝm NgÉu Nhiªn",trangbitimrandom},
 		{"KÕt Thóc §èi Tho¹i",No},
 	}
 	CreateNewSayEx("<color=green>Ng­¬i Muèn §æi Set Trang BÞ Hoµng Kim Mèn Ph¸i kh«ng?<color>", tbOpt)
