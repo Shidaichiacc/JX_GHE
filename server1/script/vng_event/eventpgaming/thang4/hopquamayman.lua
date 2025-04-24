@@ -5,10 +5,10 @@ local nYear  = tonumber(date("%y"));
 local nTime = "20"..nYear.."0501"
 tb_bluebox_item	=
 {
-	[1]	= {szName="M¶nh cê 1",	tbProp={6, 1, 1735, 1, 0, 0},	nRate = 60,	nExpiredTime = nTime},
-	[2]	= {szName="M¶nh cê 2",	tbProp={6, 1, 1736, 1, 0, 0},	nRate = 30, nExpiredTime = nTime},
-	[3]	= {szName="M¶nh cê 3",	tbProp={6, 1, 1737, 1, 0, 0},	nRate = 5, nExpiredTime = nTime},
-	[4]	= {szName="M¶nh cê 4",	tbProp={6, 1, 1738, 1, 0, 0},	nRate = 5, nExpiredTime = nTime},
+	[1]	= {szName="M¶nh cê 1",	tbProp={6, 1, 1735, 1, 0, 0},	nRate = 25,	nExpiredTime = nTime},
+	[2]	= {szName="M¶nh cê 2",	tbProp={6, 1, 1736, 1, 0, 0},	nRate = 25, nExpiredTime = nTime},
+	[3]	= {szName="M¶nh cê 3",	tbProp={6, 1, 1737, 1, 0, 0},	nRate = 25, nExpiredTime = nTime},
+	[4]	= {szName="M¶nh cê 4",	tbProp={6, 1, 1738, 1, 0, 0},	nRate = 25, nExpiredTime = nTime},
 };
 
 function main()

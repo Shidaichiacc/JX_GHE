@@ -357,7 +357,7 @@ tbConfig[20] = --?»¸öÏ¸½Ú
 	},
 	tbActition = 
 	{
-		{"NpcFunLib:DropSingleItem",	{{nExpiredTime=nTime,tbProp={6,1,1734,1,0,0},},1,"2"} },
+		{"NpcFunLib:DropSingleItem",	{{nExpiredTime=nTime,tbProp={6,1,1734,1,0,0},},1,"5"} },
 	},
 }
 tbConfig[21] = 
