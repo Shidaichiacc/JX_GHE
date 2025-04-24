@@ -3,7 +3,7 @@ IncludeLib("SETTING");
 -----------------------------------------------------------
 nTSK_USE_TIMES_LIMIT	 = 5757
 nTSK_USE_COUNT_LIMIT	 = 5756
-nUSE_COUNT_LIMIT	 = 5
+nUSE_COUNT_LIMIT	 = 25
 -------------------------------
 function main()
 

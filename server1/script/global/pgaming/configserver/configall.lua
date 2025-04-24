@@ -18,9 +18,9 @@ CauCa = 0 --Tπi Thuy“n Phu C∏c thµnh
 NPCNhipThiTran = 1
 SoNguoiThapNhatThamGiaVuotAi = 4
 SoLanVuotAiTrongNgay = 1
-SoLuongBossSatThuTrongNgay = 101
+SoLuongBossSatThuTrongNgay = 10
 -------B«u Cua----------------
-BauCua = 1 -- Trung T©m T≠¨ng D≠¨ng
+BauCua = 0 -- Trung T©m T≠¨ng D≠¨ng
 ThoiGianBatDauBauCua = 0000
 ThoiGianKetThucBauCua = 2400
 ThoiGianBatDauBauCuaText = "T›nh n®ng chÿ Æ≠Óc khai mÎ khung giÍ 0h-24h hªng ngµy. Vui lﬂng quay lπi sau"

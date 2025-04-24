@@ -8,13 +8,13 @@ function main(sel)
 
 	local tbAward = {
 		[1] = {
-            {tbProp = {4,random(744,770),374,1,0,0}, nCount = 1, nRate = 100},--manh anbang
+            {tbProp = {4,random(744,770),374,1,0,0}, nCount = 1, nRate = 70},--manh anbang
 		},
 		[2] = {
-			{tbProp = {6,1,71,1,0,0}, nCount = 1, nExpiredTime = 43200, nRate = 40},
+			{tbProp = {6,1,71,1,0,0}, nCount = 1, nRate = 20},
 			{tbProp = {6,1,124,1,0,0}, nCount = 1, nRate = 1},
             {tbProp = {6,1,125,1,0,0}, nCount = 1, nRate = 5},
-			{tbProp = {6,1,147,random(2,4),0,0,0}, tbParam = {60}, nCount = 1, nRate = 20},
+			{tbProp = {6,1,147,random(2,3),0,0,0}, tbParam = {60}, nCount = 1, nRate = 20},
 			{tbProp = {6,1,1181,1,0,0}, nCount = 1, nExpiredTime = 43200, nRate = 1},
 			--{tbProp = {4,353,1,1,0,0}, nCount = 1, nRate = 5},
 			{tbProp = {4,238,1,1,0,0}, tbParam = {60}, nCount = 1, nRate = 1},

@@ -176,7 +176,7 @@ function main(nItemIndex)
 			tinsert(tbSay, "§æi Mµu PK/trangthai")
 			--tinsert(tbSay, "hotrotanthu/HoTroTanThu");
 			--tinsert(tbSay, "Fix/ChangeKNBToCoin_FixBug");	
-			tinsert(tbSay, "test dung click vao nhe/bosssatthu9x");			
+			--tinsert(tbSay, "test dung click vao nhe/bosssatthu9x");			
 			tinsert(tbSay,"Hñy vËt phÈm/DisposeItem")
 			tinsert(tbSay, "KÕt thóc ®èi tho¹i./no")
 			
