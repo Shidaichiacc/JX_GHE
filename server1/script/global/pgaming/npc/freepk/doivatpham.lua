@@ -20,7 +20,7 @@ dofile("script/global/pgaming/npc/freepk/doivatpham.lua")
 		{"§æi TÈy Tñy Kinh",DoiTayTuyKinh},
 		{"§æi B«n Tiªu",DoiBonTieu},
 		{"N©ng CÊp HT",moMenuHT},
-		--{"Ph«i TÝm NgÉu Nhiªn",trangbitimrandom},
+		{"Ph«i TÝm NgÉu Nhiªn",trangbitimrandom},
 		{"KÕt Thóc §èi Tho¹i",No},
 	}
 	CreateNewSayEx("<color=green>Ng­¬i Muèn §æi Set Trang BÞ Hoµng Kim Mèn Ph¸i kh«ng?<color>", tbOpt)

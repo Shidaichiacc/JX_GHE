@@ -210,61 +210,72 @@ function trangbitimrandom()
 		return
 	end
 	if (CalcFreeItemCellCount() < 20) then
-		Talk(1, "", "Hµnh trang cña b¹n kh«ng ®ñ 20 « trèng.")
+		Talk(1, "", "Hanh trang khong du 20 o.")
 	return end
 	local tbEquip = TAB_OPTION;
-	local szTitle = "Ng­¬i muèn nhËn lo¹i nµo?"
+	local szTitle = "Nguoi muon nhan loai nao?"
 	local tbOption = {};
 	for x, y in tbEquip do
 		tinsert(tbOption, {format("%s", x), trangbitimrandom1,{tbEquip[x]}})
 	end
-		tinsert(tbOption, {"KÕt thóc ®èi tho¹i."})
+		tinsert(tbOption, {"ket thuc."})
 	CreateNewSayEx(szTitle, tbOption)
 end
 
 function trangbitimrandom1(tbEquip)
 
-	local szTitle = "Ng­¬i muèn nhËn lo¹i nµo?"
+	local szTitle = "Nguoi muon nhan loai nao?"
 	local tbOption = {};
 	for x, y in tbEquip do
 		tinsert(tbOption, {format("%s", x), trangbitimrandom2,{tbEquip[x]}})
 	end
-		tinsert(tbOption, {"KÕt thóc ®èi tho¹i."})
+		tinsert(tbOption, {"Ket thuc."})
 	CreateNewSayEx(szTitle, tbOption)
 end
 
 function trangbitimrandom2(tbEquip)
-	local nVLL = CalcEquiproomItemCount(6,1,4903,-1)
-	if nVLL < 1 then
-		Talk(1, "", "Can 1 Vo Lam Lenh de doi.")
+	if not tbEquip or not tbEquip[1] then
+		Talk(1, "", "Thieu thong tin trang bi.")
 		return
 	end
 
-	if CalcFreeItemCellCount() < 1 then
-		Talk(1, "", "Khong du o trong.")
+	if CalcEquiproomItemCount(6,1,4903,-1) < 1 then
+		Talk(1, "", "Can 1 vo lam lenh.")
+		return
+	end
+
+	if CalcFreeItemCellCount() < 20 then
+		Talk(1, "", "khong du 20 o trong.")
 		return
 	end
 
 	local nDong = random(1, 6)
-	ConsumeEquiproomItem(1, 6, 1, 4903, -1)
-
-	-- T?o dòng phép ?úng s? l??ng truy?n th? công
-	if nDong == 1 then
-		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1)
-	elseif nDong == 2 then
-		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1, -1)
-	elseif nDong == 3 then
-		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1, -1, -1)
-	elseif nDong == 4 then
-		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1, -1, -1, -1)
-	elseif nDong == 5 then
-		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1, -1, -1, -1, -1)
-	else
-		AddQualityItem(2, tbEquip[1], tbEquip[2], tbEquip[3], 10, 1, -1, -1, -1, -1, -1, -1)
+	local magic = {0, 0, 0, 0, 0, 0}
+	for i = 1, nDong do
+		magic[i] = -1
 	end
 
-	Talk(1, "", "Ban da nhan 1 trang bi tim voi "..nDong.." dong thuoc tinh.")
+	local idx = NewItemEx(4, 0, 2, tbEquip[1], tbEquip[2], tbEquip[3], 10, random(0, 4),
+		0, magic[1], magic[2], magic[3], magic[4], magic[5], magic[6], 0)
+
+	if idx and idx > 0 then
+		AddItemByIndex(idx)
+		--SetItemBindState(idx, -2)
+		ConsumeEquiproomItem(1, 6, 1, 4903, -1)
+		Talk(1, "", "che tao thanh cong trnag bi tim "..nDong.." dong.")
+	else
+		Talk(1, "", "che tao that bai.")
+	end
 end
+
+
+
+
+
+
+
+
+
 
 
 

@@ -175,7 +175,7 @@ function main(nItemIndex)
 			tinsert(tbSay, "§æi Mµu PK/trangthai")
 			--tinsert(tbSay, "hotrotanthu/HoTroTanThu");
 			--tinsert(tbSay, "Fix/ChangeKNBToCoin_FixBug");	
-			--tinsert(tbSay, "Fix/test");			
+			tinsert(tbSay, "Fix/test");			
 			tinsert(tbSay,"Hñy vËt phÈm/DisposeItem")
 			tinsert(tbSay, "KÕt thóc ®èi tho¹i./no")
 			
@@ -184,9 +184,22 @@ function main(nItemIndex)
 end
 ------------------test
 function test()
-AddQualityItem(2, 0, 0, 0, 10, random(0,4),-1)
-AddMagic(332,20)
+	local idx = NewItemEx(4,2,0,0,0,10,1,0,0,0,0,0,0,0)
+	if idx and idx > 0 then
+		-- th? t?ng dòng m?t, b?t t?ng cái lên test
+		-- AddItemToPlayer(idx)       -- không ch?y
+		-- PutItemToBag(idx)
+		-- AddItemEx(idx)
+		 --GiveItem(idx)
+		 AddItemByIndex(idx)
+
+		Talk(1, "", "Tao OK! ID: "..idx)
+	else
+		Talk(1, "", "Tao that bai.")
+	end
 end
+
+
 -----------------------------------goi boss----------------------------------------------
 ------------------------------------------------------------------------------------------
 function GoiBoss_HoangKim()

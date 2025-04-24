@@ -2,29 +2,29 @@ _PlayersNameTb =
 {
 TopCaoThu = 
 		{
-			[1] = {Name = 'CaiBang', Level = 200,},
-			[2] = {Name = 'NoiNhuCon', Level = 200,},
-			[3] = {Name = 'VanLong', Level = 200,},
-			[4] = {Name = 'VoDang', Level = 200,},
+			[1] = {Name = 'LÇuÙDiÙQuý', Level = 100,},
+			[2] = {Name = 'YahooNM2', Level = 98,},
+			[3] = {Name = 'YahooTL1', Level = 91,},
+			[4] = {Name = 'YahooCL5', Level = 91,},
 		},
 TopPhuHo = 
 		{
-			[1] = {Name = 'GameMaster', Money = 32071974,},
-			[2] = {Name = '', Money = 0,},
-			[3] = {Name = '', Money = 0,},
-			[4] = {Name = '', Money = 0,},
+			[1] = {Name = 'GameMaster', Money = 98146569,},
+			[2] = {Name = 'N×mÙNhôcÙPÈu', Money = 66466958,},
+			[3] = {Name = 'YahooBu3', Money = 64420056,},
+			[4] = {Name = 'YahooNM2', Money = 7327096,},
 		},
 TopMonPhai = 
 		{
-			shaolin = {Name = 'GameMaster', Level = 200,},
-			tianwang = {Name = 'Longka', Level = 200,},
-			tangmen = {Name = 'MinhHoa', Level = 200,},
-			wudu = {Name = 'GameMaster', Level = 150,},
-			emei = {Name = 'NoiNhuCon', Level = 200,},
+			shaolin = {Name = 'YahooTL1', Level = 91,},
+			tianwang = {Name = 'YahooTV6', Level = 91,},
+			tangmen = {Name = 'VßngÙCónÙD­ìng', Level = 91,},
+			wudu = {Name = 'NguyÔnÙ§øcÙH¹nh', Level = 91,},
+			emei = {Name = 'YahooNM2', Level = 98,},
 			cuiyan = {Name = '', Level = 0,},
-			gaibang = {Name = 'Canhdanh', Level = 200,},
-			tianren = {Name = 'VanLong', Level = 200,},
-			wudang = {Name = 'VoDang', Level = 200,},
-			kunlun = {Name = 'HoaMin', Level = 200,},
+			gaibang = {Name = 'YahooCB4', Level = 91,},
+			tianren = {Name = 'NguyÔnÙMinhÙTrÝ', Level = 91,},
+			wudang = {Name = 'LÇuÙDiÙQuý', Level = 100,},
+			kunlun = {Name = 'YahooCL5', Level = 91,},
 		},
 }

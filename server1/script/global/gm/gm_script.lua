@@ -1763,7 +1763,7 @@ end
 
 function tbAloneScript:SetCountSpecifiedItem(nType, tbParam)
 	local tbOptionSelected = {}
-	g_AskClientNumberEx(1, 500, "NhËp sè l­îng:", {self.CountSpecifiedItem, {self, {nType, tbParam, tbOptionSelected}}})
+	g_AskClientNumberEx(1, 1000, "NhËp sè l­îng:", {self.CountSpecifiedItem, {self, {nType, tbParam, tbOptionSelected}}})
 end
 
 function tbAloneScript:CountSpecifiedItem(tbSpecifiedItem, nCount, nOptionSelected)
