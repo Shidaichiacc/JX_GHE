@@ -508,6 +508,25 @@ local nRuong = CalcFreeItemCellCount()
 	end
 	tbAwardTemplet:GiveAwardByList({tbProp = {6,1,4903,1,0,0}, nCount = 1,nBindState = -2}, "test", 1);--VLL
 AddOwnExp(10000000)------ 20tr 
+------------------------------------------------------
+local tbAward = {
+	[1] = {
+
+	},
+	[2] = {
+{szName="Tiªn Th¶o Lé",tbProp={6,1,71,1,0,0},nCount=1,nRate=20},	
+{szName="Phóc Duyªn Lé §¹i",tbProp={6,1,124,1,0,0},nCount=1,nRate=1},
+{szName="§å Phæ",tbProp={6,1,random(383,391),1,0,0,0},nCount=1,nRate=10},
+{szName="Tö Thñy Tinh",tbProp={4,239,1,1,0,0}, tbParam={60},nCount=1,nRate=1},
+--{szName="ChiÕu D¹ Ngäc S­ Tö ", tbProp={0,10,5,10,0,0},nCount=1,nRate = 1},
+--{szName="XÝch Thè ", tbProp={0,10,5,7,0,0},nCount=1,nRate = 1},
+{szName="§Ých L« ", tbProp={0,10,5,9,0,0},nCount=1,nRate = 1},
+{szName="¤ V©n §¹p TuyÕt", tbProp={0,10,5,6,0,0},nCount=1,nRate = 1},
+{szName="TuyÖt ¶nh", tbProp={0,10,5,8,0,0},nCount=1,nRate = 1},
+},
+}
+tbAwardTemplet:GiveAwardByList(tbAward,"test",1);
+
 end
 --------------------------------------------------------------------------------------------------------------------------------
 --														TÝn Sø															 	  --
@@ -522,10 +541,12 @@ local nRuong = CalcFreeItemCellCount()
 	if nTodayTaskCount == 1 then
 		tbAwardTemplet:GiveAwardByList({tbProp = {6,1,random(122,124),0,0,0},nCount=1}, "test", 1);-- phuc duyen
 		tbAwardTemplet:GiveAwardByList({tbProp = {6,1,147,random(1,4),0,0}, nCount = 1}, "test", 1);--HT 14
+		tbAwardTemplet:GiveAwardByList({tbProp = {6,1,4903,1,0,0},nCount=1}, "test", 1);--vll
 	end
 	if nTodayTaskCount == 2 then
 		tbAwardTemplet:GiveAwardByList({tbProp = {6,1,147,random(1,4),0,0}, nCount = 1}, "test", 1);--HT 14
 		tbAwardTemplet:GiveAwardByList({tbProp = {6,1,random(122,124),0,0,0},nCount=1}, "test", 1);--phucduyen
+		tbAwardTemplet:GiveAwardByList({tbProp = {6,1,4903,1,0,0},nCount=1}, "test", 1);--vll
 	end
 end
 --------------------------------------------------------------------------------------------------------------------------------

@@ -28,6 +28,7 @@ Include("\\script\\global\\systemconfig.lua");
 Include("\\script\\dailogsys\\dailogsay.lua");
 Include("\\script\\global\\general\\hotrotanthu\\main.lua")--
 Include("\\script\\global\\pgaming\\configserver\\configall.lua")
+Include("\\script\\global\\pgaming\\configserver\\phanthuonghoatdong.lua")
 
 -----------------------------------------------------------------------tbFaction------------------------------------------------------------------------
 local tbFaction =
@@ -175,7 +176,7 @@ function main(nItemIndex)
 			tinsert(tbSay, "§æi Mµu PK/trangthai")
 			--tinsert(tbSay, "hotrotanthu/HoTroTanThu");
 			--tinsert(tbSay, "Fix/ChangeKNBToCoin_FixBug");	
-			tinsert(tbSay, "Fix/test");			
+			tinsert(tbSay, "test dung click vao nhe/bosssatthu9x");			
 			tinsert(tbSay,"Hñy vËt phÈm/DisposeItem")
 			tinsert(tbSay, "KÕt thóc ®èi tho¹i./no")
 			
@@ -303,6 +304,7 @@ function trangthai()
 			{"Trung LËp",trunglap},
 			{"Tµ Ph¸i",taphai},
 			{"S¸t Thñ",satthu},
+			{"ChiÕn ®Êu - Phi ChiÕn §Êu ",chiendauphichiendau},
 			--{"Trë L¹i",main},
 			{"Tho¸t"},
 		}
@@ -328,6 +330,28 @@ function trangthai()
 	SetCurCamp(4)
 	SetCamp(4) 
 	end
+
+	--------------------------trang thai chien dau
+function chiendauphichiendau()
+	local szTitle = format("Mêi  <color=red>%s<color> lùa chän chøc n¨ng hç trî ", GetName());
+	local tbOpt = 
+	{
+	{"ChiÕn ®Êu", chiendau},
+	{"Phi ChiÕn §Êu", phichiendau},	
+	{"§ãng."},
+	}
+	CreateNewSayEx(szTitle, tbOpt)
+end
+
+function chiendau()
+SetFightState(1); 
+end
+
+function phichiendau()
+SetFightState(0); 
+end
+
+
 ----------------------------------------------------------------------------------------------------
 --						Hæ trî server PK						--
 ----------------------------------------------------------------------------------------------------

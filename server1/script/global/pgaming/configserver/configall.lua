@@ -99,7 +99,7 @@ KhoaChucNangBayBan = 0
 --										Hæ trî Test Game - Open Server										  --
 --============================================================================================================--
 ----------------Thêi Gian Open Server ----------------------------
-ThoiGianOpenServer = 202906111700 --N¨m/Th¸ng/Ngµy/Giê/Phót
+ThoiGianOpenServer = 202006111700 --N¨m/Th¸ng/Ngµy/Giê/Phót
 ThoiGianOpenServerText = "Thêi gian open server lµ 17h, xin h·y quay lai sau" --söa l¹i c©u tho¹i cho phï hîp
 ThoiGianNhanThuongDuaTop = 202007050000 --NhËn trong NPC lÔ quan
 ThoiGianKetThucNhanThuongDuaTop = 202007110000
