@@ -8,7 +8,7 @@ function main(sel)
 
 	local tbAward = {
 		[1] = {
-            {tbProp = {4,random(744,770),374,1,0,0}, nCount = 1, nRate = 70},--manh anbang
+            {tbProp = {4,random(747,770),374,1,0,0}, nCount = 1, nRate = 70},--manh anbang
 		},
 		[2] = {
 			{tbProp = {6,1,71,1,0,0}, nCount = 1, nRate = 20},

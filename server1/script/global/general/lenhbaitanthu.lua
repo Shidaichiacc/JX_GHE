@@ -176,7 +176,7 @@ function main(nItemIndex)
 			tinsert(tbSay, "§æi Mµu PK/trangthai")
 			--tinsert(tbSay, "hotrotanthu/HoTroTanThu");
 			--tinsert(tbSay, "Fix/ChangeKNBToCoin_FixBug");	
-			--tinsert(tbSay, "test dung click vao nhe/bosssatthu9x");			
+			tinsert(tbSay, "test dung click vao nhe/bosssatthu9x");			
 			tinsert(tbSay,"Hñy vËt phÈm/DisposeItem")
 			tinsert(tbSay, "KÕt thóc ®èi tho¹i./no")
 			
@@ -184,20 +184,10 @@ function main(nItemIndex)
 	return 1;
 end
 ------------------test
-function test()
-	local idx = NewItemEx(4,2,0,0,0,10,1,0,0,0,0,0,0,0)
-	if idx and idx > 0 then
-		-- th? t?ng dòng m?t, b?t t?ng cái lên test
-		-- AddItemToPlayer(idx)       -- không ch?y
-		-- PutItemToBag(idx)
-		-- AddItemEx(idx)
-		 --GiveItem(idx)
-		 AddItemByIndex(idx)
-
-		Talk(1, "", "Tao OK! ID: "..idx)
-	else
-		Talk(1, "", "Tao that bai.")
-	end
+function bosssatthu9x()
+	
+	ItemIndex=AddGoldItem(0,1067)
+	SetItemBindState(ItemIndex, -2)
 end
 
 

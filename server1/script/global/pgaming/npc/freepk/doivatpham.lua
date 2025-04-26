@@ -60,8 +60,8 @@ function HT1to2() DoiHTTheoCap(1, 6) end
 function HT2to3() DoiHTTheoCap(2, 6) end
 function HT3to4() DoiHTTheoCap(3, 6) end
 function HT4to5() DoiHTTheoCap(4, 6) end
-function HT5to6() DoiHTTheoCap(5, 5) end
-function HT6to7() DoiHTTheoCap(6, 5) end
+function HT5to6() DoiHTTheoCap(5, 6) end
+function HT6to7() DoiHTTheoCap(6, 6) end
 function HT7to8() DoiHTTheoCap(7, 4) end
 function HT8to9() DoiHTTheoCap(8, 4) end
 function HT9to10() DoiHTTheoCap(9, 4) end
@@ -86,12 +86,12 @@ function DoiHTTheoCap(nCap, bieng)
 	AskClientForNumber("XacNhanHTCap"..nCap, 0, nSoLan, ""..bieng.." HT"..nCap.." = 1 HT"..(nCap+1))
 end
 
-function XacNhanHTCap1(n) XacNhanHTCapX(1, 4, n) end
-function XacNhanHTCap2(n) XacNhanHTCapX(2, 4, n) end
-function XacNhanHTCap3(n) XacNhanHTCapX(3, 4, n) end
-function XacNhanHTCap4(n) XacNhanHTCapX(4, 4, n) end
-function XacNhanHTCap5(n) XacNhanHTCapX(5, 4, n) end
-function XacNhanHTCap6(n) XacNhanHTCapX(6, 4, n) end
+function XacNhanHTCap1(n) XacNhanHTCapX(1, 6, n) end
+function XacNhanHTCap2(n) XacNhanHTCapX(2, 6, n) end
+function XacNhanHTCap3(n) XacNhanHTCapX(3, 6, n) end
+function XacNhanHTCap4(n) XacNhanHTCapX(4, 6, n) end
+function XacNhanHTCap5(n) XacNhanHTCapX(5, 6, n) end
+function XacNhanHTCap6(n) XacNhanHTCapX(6, 6, n) end
 function XacNhanHTCap7(n) XacNhanHTCapX(7, 4, n) end
 function XacNhanHTCap8(n) XacNhanHTCapX(8, 4, n) end
 function XacNhanHTCap9(n) XacNhanHTCapX(9, 4, n) end

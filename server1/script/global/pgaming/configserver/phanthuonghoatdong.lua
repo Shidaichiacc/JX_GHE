@@ -520,9 +520,9 @@ local tbAward = {
 {szName="Tö Thñy Tinh",tbProp={4,239,1,1,0,0}, tbParam={60},nCount=1,nRate=1},
 --{szName="ChiÕu D¹ Ngäc S­ Tö ", tbProp={0,10,5,10,0,0},nCount=1,nRate = 1},
 --{szName="XÝch Thè ", tbProp={0,10,5,7,0,0},nCount=1,nRate = 1},
-{szName="§Ých L« ", tbProp={0,10,5,9,0,0},nCount=1,nRate = 1},
-{szName="¤ V©n §¹p TuyÕt", tbProp={0,10,5,6,0,0},nCount=1,nRate = 1},
-{szName="TuyÖt ¶nh", tbProp={0,10,5,8,0,0},nCount=1,nRate = 1},
+--{szName="§Ých L« ", tbProp={0,10,5,9,0,0},nCount=1,nRate = 1},
+--{szName="¤ V©n §¹p TuyÕt", tbProp={0,10,5,6,0,0},nCount=1,nRate = 1},
+--{szName="TuyÖt ¶nh", tbProp={0,10,5,8,0,0},nCount=1,nRate = 1},
 },
 }
 tbAwardTemplet:GiveAwardByList(tbAward,"test",1);

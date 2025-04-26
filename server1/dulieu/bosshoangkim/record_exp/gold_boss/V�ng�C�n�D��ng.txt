@@ -7,3 +7,5 @@
 04/24/2025_15:06:13	8000000	 Kinh nghiÖm ®· h¹ gôc tõ boss Yªn HiÓu Tr¸i 
 04/24/2025_15:06:13	2000000	Kinh nghiÖm ®øng gÇn lóc boss Yªn HiÓu Tr¸i bŞ tiªu diÖt.
 04/24/2025_15:12:54	8000000	 Kinh nghiÖm ®· h¹ gôc tõ boss Thanh TuyÖt S­ Th¸i 
+04/26/2025_20:08:13	8000000	 Kinh nghiÖm ®· h¹ gôc tõ boss Gia LuËt TŞ Ly 
+04/26/2025_20:08:13	2000000	Kinh nghiÖm ®øng gÇn lóc boss Gia LuËt TŞ Ly bŞ tiªu diÖt.
